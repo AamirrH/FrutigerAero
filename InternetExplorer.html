@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internet Explorer</title>
+  <link rel="icon" type="image/webp" href="Tonev-Windows-7-Windows-7-ie.256.png">
+  <link rel="stylesheet" href="InternetExplorer.css">
+</head>
+<body>
+  <div class="ie6-window">
+    <div class="title-bar">
+      <span class="title">Home - Microsoft Internet Explorer</span>
+      <div class="window-controls">
+        <button class="min" style="background-color: rgb(124, 218, 247);">-</button>
+        <button class="max" style="background-color: rgb(130, 226, 255);">□</button>
+        <button class="close" style="background-color: red;">×</button>
+      </div>
+    </div>
+
+    <div class="menu-bar">
+      <span>File</span>
+      <span>Edit</span>
+      <span>View</span>
+      <span>Favorites</span>
+      <span>Tools</span>
+      <span>Help</span>
+    </div>
+
+    <div class="nav-bar">
+      <button>Back</button>
+      <button>Forward</button>
+      <button>Stop</button>
+      <button>Refresh</button>
+      <button>Home</button>
+      <button>Go</button>
+      <button>Favorites</button>
+      <button>Media</button>
+    </div>
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </form>
+      
+    <div class="content">
+        <iframe id="searchFrame" src="https://bing.com" width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+      
+  </div>
+  <br><br><br>
+  <big><p style="color: aliceblue; font-size: xxx-large;">Feel Old Yet ?</p></big>
+  <script>
+    const form = document.getElementById('searchForm');
+    const input = document.getElementById('searchInput');
+    const iframe = document.getElementById('searchFrame');
+  
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // prevent page refresh
+  
+      const query = encodeURIComponent(input.value.trim());
+      if (query) {
+        iframe.src = `https://bing.com/?q=${query}`;
+      }
+    });
+  </script>
+  
+</body>
+</html>

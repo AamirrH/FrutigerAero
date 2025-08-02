@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Computer - Windows 7</title>
+  <link rel="icon" type="image/webp" href="Tonev-Windows-7-Windows-7-editor.256.png">
+  <link rel="stylesheet" href="Picture.css" />
+</head>
+<body>
+
+  <div class="overlay">
+    <div class="title-bar">
+      <span class="window-title">Frutiger Aero</span>
+      <button class="minimise">–</button>
+      <button class="Resume">☐</button>
+      <button class="close-btn">✕</button>
+    </div>
+    <main>
+      <section class="content">
+        <div class="image-viewer">
+          <img id="displayedImage" src="ImageGallery1.jpg" alt="Nostalgic Image" />
+        </div>
+        <div class="image-controls">
+          <button class="arrow-btn" onclick="prevImage()">⬅</button>
+          <button class="arrow-btn" onclick="nextImage()">➡</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <audio id="bg-music" src="AqauticAmbience.mp3" controls autoplay loop hidden></audio>
+  <script>
+    const images = [
+      "ImageGallery1.jpg",
+      "ImageGallery2.jpg",
+      "ImageGallery3.jpg",
+      "ImageGallery4.jpg",
+      "ImageGallery5.jpg",
+      "ImageGallery6.jpg",
+      "ImageGallery7.jpg",
+      "ImageGallery8.jpg",
+      "ImageGallery9.jpg",
+      "ImageGallery10.jpg",
+    ];
+    let currentIndex = 0;
+  
+    function showImage(index) {
+      const img = document.getElementById("displayedImage");
+      img.src = images[index];
+    }
+  
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+  
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+    window.addEventListener("DOMContentLoaded", () => {
+          const audio = document.getElementById("bg-music");
+          audio.volume = 0.3; 
+        });
+  </script>
+  </body>
+  </html>
