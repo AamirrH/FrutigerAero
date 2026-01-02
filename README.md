@@ -1,66 +1,71 @@
-#🖥️ Frutiger Aero – Windows 7 Nostalgia in the Browser
 
-Frutiger Aero is a fully interactive, browser-based recreation of the classic Windows 7 “My Computer” experience, designed to revive the iconic Frutiger Aero aesthetic of the late 2000s.
 
-This project focuses on visual accuracy, smooth interactions, and pure frontend craftsmanship, recreating the glassy UI, soft gradients, retro folder naming, and window behaviors — all without using any frameworks.
+# 🖥️ Frutiger Aero – Windows 7 Nostalgia in the Browser
 
-✨ Project Inspiration
+**Frutiger Aero** is a fully interactive, browser-based recreation of the classic **Windows 7 “My Computer” experience**, designed to revive the iconic **Frutiger Aero aesthetic** of the late 2000s.
+
+This project focuses on **visual accuracy, smooth interactions, and pure frontend craftsmanship**, recreating the glassy UI, soft gradients, retro folder naming, and window behaviors — all **without using any frameworks**.
+
+---
+
+## ✨ Project Inspiration
 
 Frutiger Aero represents a design era defined by:
 
-Glass-like transparency (Aero Glass)
+* Glass-like transparency (Aero Glass)
+* Soft gradients and glowing highlights
+* Clean typography and skeuomorphic UI elements
+* Calm, optimistic tech aesthetics
 
-Soft gradients and glowing highlights
+This project aims to **preserve and relive that design philosophy** in a modern browser environment.
 
-Clean typography and skeuomorphic UI elements
+---
 
-Calm, optimistic tech aesthetics
+## 🚀 Features
 
-This project aims to preserve and relive that design philosophy in a modern browser environment.
+* 🪟 **Interactive Window System**
 
-🚀 Features
+* 🗂️ **Classic “My Computer” Layout**
 
-🪟 Interactive Window System
+  * Retro folder and drive names
+  * Familiar Windows 7-style structure
+  * Pixel-aligned spacing and icons
 
-🗂️ Classic “My Computer” Layout
+* 🎨 **Authentic Frutiger Aero Styling**
 
-Retro folder and drive names
+  * Glassy panels and soft shadows
+  * Gradients inspired by Aero Glass
+  * Windows 7–era color palette
 
-Familiar Windows 7-style structure
+* 🖱️ **Mouse-Driven Interactions**
 
-Pixel-aligned spacing and icons
+  * Click-to-open folders
+  * Hover effects that mimic native UI
+  * Smooth transitions for realism
 
-🎨 Authentic Frutiger Aero Styling
+* ⚡ **Pure Frontend Implementation**
 
-Glassy panels and soft shadows
+  * No frameworks
+  * No libraries
+  * Just **HTML, CSS, and vanilla JavaScript**
 
-Gradients inspired by Aero Glass
+---
 
-Windows 7–era color palette
+## 🧠 Tech Stack
 
-🖱️ Mouse-Driven Interactions
+* **HTML5** – semantic structure and layout
+* **CSS3** – gradients, shadows, transparency, animations
+* **Vanilla JavaScript** – window logic, interactions, state handling
 
-Click-to-open folders
+> No React. No Vue. No Tailwind.
+> This project demonstrates **core frontend fundamentals**.
 
-Hover effects that mimic native UI
+---
 
-Smooth transitions for realism
+Inspired by:
 
-⚡ Pure Frontend Implementation
+* Windows 7 UI Design
+* Frutiger Aero design movement
+* Early 2000s desktop operating systems
 
-No frameworks
 
-No libraries
-
-Just HTML, CSS, and vanilla JavaScript
-
-🧠 Tech Stack
-
-HTML5 – semantic structure and layout
-
-CSS3 – gradients, shadows, transparency, animations
-
-Vanilla JavaScript – window logic, interactions, state handling
-
-No React. No Vue. No Tailwind.
-This project demonstrates core frontend fundamentals.
