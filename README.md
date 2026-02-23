@@ -15,7 +15,6 @@ Frutiger Aero represents a design era defined by:
 * Glass-like transparency (Aero Glass)
 * Soft gradients and glowing highlights
 * Clean typography and skeuomorphic UI elements
-* Calm, optimistic tech aesthetics
 
 This project aims to **preserve and relive that design philosophy** in a modern browser environment.
 
