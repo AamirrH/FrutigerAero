@@ -2,7 +2,7 @@
 
 # 🖥️ Frutiger Aero – Windows 7 Nostalgia in the Browser
 
-**Frutiger Aero** is a fully interactive, browser-based recreation of the classic **Windows 7 “My Computer” experience**, designed to revive the iconic **Frutiger Aero aesthetic** of the late 2000s.
+**Frutiger Aero** is a fully interactive, browser-based recreation of the classic **Windows 7 “My Computer” experience**, designed to revive the iconic **Frutiger Aero aesthetic** of the late 2000s
 
 This project focuses on **visual accuracy, smooth interactions, and pure frontend craftsmanship**, recreating the glassy UI, soft gradients, retro folder naming, and window behaviors — all **without using any frameworks**.
 
