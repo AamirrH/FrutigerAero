@@ -1,0 +1,95 @@
+body {
+  background-color: aqua;
+  background-image: url(../media/upscalemedia-transformed.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: transform 4s ease-in-out, filter 4s ease-in-out;
+}
+
+h1 {
+  color: black;
+  font-family: 'Segoe UI';
+  text-align: center;
+}
+
+.aero-button {
+  margin-top: 15px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background: linear-gradient(145deg, #60d0ff, #2394ff);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.aero-button:hover {
+  background: linear-gradient(145deg, #50b8ea, #1b83dd);
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.glassbox {
+  display: inline-block;
+  padding: 25px 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  color: black;
+   
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 90%;
+  margin: 40px auto;
+  width: fit-content;
+}
+
+.intro-copy {
+  margin-top: 30px;
+  font-size: x-large;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.teleporting {
+  transform: scale(3);
+  filter: blur(15px) brightness(1.3);
+}
+
+#fade-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 2s ease;
+  z-index: 9999;
+}
+
+#fade-screen.fade-in {
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; 
+}
+
+  
